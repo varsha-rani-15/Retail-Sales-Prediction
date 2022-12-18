@@ -12,30 +12,30 @@ We are given two data sets : Rossmann Stores Data.csv - historical data includin
 The objective of this project is to forecast the "Sales" column for the test set.
 
 ## Steps Involved
-* Importing Libraries 
+* **Importing Libraries** 
 
 Libraries used : 
 > • Pandas • Numpy • Matplotlib • Seaborn • Sklearn 
 
-* Downloading and Checking Data 
+* **Downloading and Checking Data** 
 > We have loaded the given dataset and created dataframe. Checked the data and merged both the dataset “Rossmann Stores Data.csv” and “store.csv” for further implementations. 
 
-* Data Manipulation 
+* **Data Manipulation** 
 > We splitted Date column into Year-Month-Day and week of year. 
 
-* Exploratory Data Analysis 
+* **Exploratory Data Analysis** 
 > ● When stores are closed ● Effect of running promotional ads on sales ● Sales according to days of week ● Promotional Ads and customer count ● Percentage shop running continuous promotions ● Different store types ● Total sales per store type ● Total number of customers per store type ● Average sales per store type ● Average customer per store type ● Average customer spending time per store type ● Assortments and store types ● Sales Analysis 
 
-* Feature Engineering 
+* **Feature Engineering** 
 
-* Training Model 
+* **Training Model** 
 
-* Data Modeling 
+* **Data Modeling** 
 > ● Decision Tree Regression ● Gradient Boosting ● Random Forest ● XG Boost 
 
-* Validating Model 
+* **Validating Model** 
 
-* Hyper Parameter Tunning 
+* **Hyper Parameter Tunning** 
 
 ## Conclusion
 

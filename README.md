@@ -1,5 +1,3 @@
-# Retail-Sales-Prediction
-# Supervised Machine Learning (Regression) Project
 # ROSSMANN RETAIL SALES PREDICTION
 
 ## Problem Statement 
@@ -72,3 +70,18 @@ Libraries used :
 > • As we can see, it always delivers a good prediction score while not having a lot of modifications and difficulties capturing the patterns hidden in the data. Fortunately, we had a train set that was large enough for it to converge but in general RandomForest performs not so bad on small sets since its resampling method (bagging) and its random production of trees allow the bias to remain not so high and in this case always performs good on unseen data where as XGboost has tendency to overfit if not gently and smartly tuned. 
 
 > • I believe using hyperparameter optimization techniques like Gridsearch and RandomizedSearch is crucial to any Machine Learning problem since it allows the algorithm to not just limit itself on its defaulted parameters but to discover new opportunities of combining those parameters to reach a local optima while training on the data.
+
+## Here are some glimpse of few graphs, there are more in the notebook please have a look.
+<p align="left">
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209211064-c411252b-55c3-4c1c-be0a-eb19690ae2d3.png">
+  &nbsp &nbsp 
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209211201-a1aa1c61-02af-42c5-a500-000ddf398ae4.png">
+  &nbsp &nbsp
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209211407-d653c7b1-7f9c-40b2-b9c1-6bd1571dd467.png">
+  &nbsp &nbsp
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209211573-851219fa-6d0d-4e2c-8269-6233132082a3.png">
+  &nbsp &nbsp 
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209211642-d7a3b8ea-057b-4722-ba07-bdb2c04e5513.png">
+  &nbsp &nbsp 
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209211711-2bba9e5b-c63b-43f0-b8b6-4ed28caf4ece.png">
+</p>
